@@ -22,3 +22,16 @@ const apple = new Fruit('apple', '🍎');
 console.log(apple.name); // apple
 console.log(apple.emoji); // 🍎
 apple.display(); // apple: 🍎
+
+console.clear();
+
+class Fruit {
+    constructor(name, emoji) {
+        this.name = name;
+        this.emoji = emoji;
+    }
+
+    display = () => {
+        
+    }
+}
